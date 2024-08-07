@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pactify:
+    image: haha0224/pactify:latest
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
